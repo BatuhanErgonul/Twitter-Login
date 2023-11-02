@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:grid;
+    grid-template-columns: 400px 1fr;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+header{
+    display: flex;
+    justify-content: left;
+}
+.logo{
+    background-image: url(./twitterlogo.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+h1{
+text-align: start;
+font-size: 70px;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+}
+
+.ortaicerik{
+    text-align:left;
+}
+.googlebtn{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:10px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.applebtn{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.hesapbtn{
+    background-color:rgb(57, 142, 239);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px 50px;
+}
+.alticerik{
+    text-align: left;
+    margin: 10px;
+}
+.girisbtn{
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    padding: 5px 70px;
+    margin:10px
+}
+.soniceriks{
+    position: absolute;
+    bottom: 0;
+
+}
+.soniceriks a{
+    text-decoration: none;
+]
